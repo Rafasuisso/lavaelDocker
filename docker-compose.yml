@@ -6,7 +6,7 @@ services:
     volumes:
       - ./laravel-app:/var/www/html
     ports:
-      - 9000:80
+      - 3000:80
   
   mysql_db:
     image: mysql:latest
