@@ -14,12 +14,16 @@ $ composer create-project laravel/laravel .
 
 #Corrigir erro de permissionamento do arquivo laravel.log
 
-Try to give permissions to the storage folder.
+#Try to give permissions to the storage folder.
+
 sudo chmod -R 777 storage
 
-after that run:
+#after that run:
+
 php artisan cache:clear
+
 php artisan config:clear
+
 php artisan config:cache
 
 
